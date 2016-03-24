@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48456E5E1C49DAFF00399CFC /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 48456E5D1C49DAFF00399CFC /* 2.png */; };
+		48456E631C49DC0200399CFC /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 48456E611C49DC0200399CFC /* 4.png */; };
+		48456E641C49DC0200399CFC /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 48456E621C49DC0200399CFC /* 3.png */; };
+		48456E661C4A136D00399CFC /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48456E651C4A136D00399CFC /* 1.jpg */; };
+		48456E681C4A13A300399CFC /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 48456E671C4A13A300399CFC /* 5.png */; };
 		48F67DFC1C47A3FC008408BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F67DFB1C47A3FC008408BD /* main.m */; };
 		48F67DFF1C47A3FC008408BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F67DFE1C47A3FC008408BD /* AppDelegate.m */; };
 		48F67E021C47A3FC008408BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F67E011C47A3FC008408BD /* ViewController.m */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48456E5D1C49DAFF00399CFC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		48456E611C49DC0200399CFC /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		48456E621C49DC0200399CFC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		48456E651C4A136D00399CFC /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		48456E671C4A13A300399CFC /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		48F67DF71C47A3FC008408BD /* 循环滑动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "循环滑动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F67DFB1C47A3FC008408BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48F67DFD1C47A3FC008408BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +91,11 @@
 		48F67DEE1C47A3FC008408BD = {
 			isa = PBXGroup;
 			children = (
+				48456E611C49DC0200399CFC /* 4.png */,
+				48456E621C49DC0200399CFC /* 3.png */,
+				48456E5D1C49DAFF00399CFC /* 2.png */,
+				48456E671C4A13A300399CFC /* 5.png */,
+				48456E651C4A136D00399CFC /* 1.jpg */,
 				48F67DF91C47A3FC008408BD /* 循环滑动 */,
 				48F67E131C47A3FC008408BD /* 循环滑动Tests */,
 				48F67E1E1C47A3FC008408BD /* 循环滑动UITests */,
@@ -243,8 +258,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48456E641C49DC0200399CFC /* 3.png in Resources */,
 				48F67E0A1C47A3FC008408BD /* LaunchScreen.storyboard in Resources */,
+				48456E681C4A13A300399CFC /* 5.png in Resources */,
+				48456E631C49DC0200399CFC /* 4.png in Resources */,
 				48F67E071C47A3FC008408BD /* Assets.xcassets in Resources */,
+				48456E661C4A136D00399CFC /* 1.jpg in Resources */,
+				48456E5E1C49DAFF00399CFC /* 2.png in Resources */,
 				48F67E051C47A3FC008408BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +518,7 @@
 				48F67E261C47A3FC008408BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48F67E271C47A3FC008408BD /* Build configuration list for PBXNativeTarget "循环滑动Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +527,7 @@
 				48F67E291C47A3FC008408BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48F67E2A1C47A3FC008408BD /* Build configuration list for PBXNativeTarget "循环滑动UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +536,7 @@
 				48F67E2C1C47A3FC008408BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
